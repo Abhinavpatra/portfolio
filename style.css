@@ -7,15 +7,25 @@
 
 [data-theme="dark"] {
   --bg: #121212;
-  --fg: #eee;
+  --fg: #aaaaaa;
   --section: #1e1e1e;
   --accent: #66aaff;
 }
 
 body {
-  font-family: sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family:'Courier New', Courier, monospace;
   background-color: var(--bg);
   color: var(--fg);
   margin: 0;
   padding: 0;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; 
 }
